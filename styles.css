@@ -1,0 +1,56 @@
+
+.Intro {
+    background-image: url('images/4.png');
+    background-size: cover; /* Ensures the image covers the entire footer */
+    background-position: center;
+    height: 60vh; /* Adjust height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; /* Text color */
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+  }
+  
+  p.About {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+.About {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);  /* Subtle shadow */
+}
+
+.btn-navy {
+    background-color: #001f3f; /* Navy Blue */
+    color: white; /* Text color */
+    border: none;
+}
+
+.btn-navy:hover {
+    background-color: #001633; /* Darker shade on hover */
+}
+
+.btn-secondary {
+    background-color: #87CEFA; /* Light Sky Blue */
+    color: white; /* Text color */
+    border: none;
+}
+
+.btn-secondary:hover {
+    background-color: #5aa9e6; /* Slightly darker blue on hover */
+}
+
